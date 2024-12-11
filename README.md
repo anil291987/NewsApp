@@ -1,3 +1,7 @@
+# NewsApp
+[![CodeFactor](https://www.codefactor.io/repository/github/anil291987/newsapp/badge)](https://www.codefactor.io/repository/github/anil291987/newsapp)
+[![codebeat badge](https://codebeat.co/badges/2f49c99e-5dba-4d0d-a2e6-6aca994e2c92)](https://codebeat.co/projects/github-com-anil291987-newsapp-main)
+[![GitHub license](https://img.shields.io/github/license/anil291987/NewsApp.svg)](https://github.com/anil291987/NewsApp/blob/main/LICENSE)
 # Features
 The app has several main features:
 1. Fetch news based on categories: general, business, science, technology, health, entertainment, sports
