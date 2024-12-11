@@ -41,8 +41,8 @@ final class NewsAPIServiceTests: XCTestCase {
             )
         )
         
-        MockURLProtocol.requestHandler =  { request in
-            return (jsonData, response)
+        MockURLProtocol.requestHandler =  { _ in
+            (jsonData, response)
         }
         
         let articles = try await newsAPIService.fetchNewsArticles(for: .general)
@@ -74,8 +74,8 @@ final class NewsAPIServiceTests: XCTestCase {
             )
         )
         
-        MockURLProtocol.requestHandler =  { request in
-            return (jsonData, response)
+        MockURLProtocol.requestHandler =  { _ in
+            (jsonData, response)
         }
         do {
             _ = try await newsAPIService.fetchNewsArticles(for: .general)
